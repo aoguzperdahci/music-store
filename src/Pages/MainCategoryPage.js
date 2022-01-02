@@ -24,7 +24,7 @@ const MainCategoryPage = () => {
 
     return (
         <div>
-            {filterCategories().subCatogories.map(c => c.name)}
+            {filterCategories().subCategories.map(c => c.name)}
         </div>
     )
 }

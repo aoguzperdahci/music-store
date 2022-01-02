@@ -14,7 +14,7 @@ class Product{
 }
 
 const Products = [
-    new Product("Jackson JS11 Dinky 2-Point", 0, 0, 1200, "Electric", ),
+    new Product("Jackson JS11 Dinky 2-Point", 0, 0, 1200, "Electric", [jacksonJS11Image]),
 ];
 
 
