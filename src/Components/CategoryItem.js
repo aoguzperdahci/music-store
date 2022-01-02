@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FeedItem = () => {
+const CategoryItem = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const FeedItem = () => {
     )
 }
 
-export default FeedItem
+export default CategoryItem
