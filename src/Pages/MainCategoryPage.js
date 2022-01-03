@@ -7,24 +7,20 @@ import Categories from '../Resources/Categories';
 const MainCategoryPage = () => {
 
     const { mainCategory } = useParams();
-    const [main, setMain] = useState();
+    const [category, setCategory] = useState();
     console.log("main: ", mainCategory);
 
     useEffect(() => {
-        let params = mainCategory.split("-");
-        for (let i = 0; i < params.length; i++) {
-            params[i] = params[i].charAt(0).toUpperCase() + params[i].slice(1);
-        }
-        setMain(params.join(" "));
+        let main = mainCategory.replace("-", " ");
+        let c = Categories.find(c => c.name === main);
+        //NotFound check
+        setCategory(c);
     }, [mainCategory]);
 
-    const filterCategories = () => {
-        return Categories.find(c => c.name === main)
-    }
 
     return (
         <div>
-            {filterCategories().subCategories.map(c => c.name)}
+            {category?.subCategories.map(c => c.name)}
         </div>
     )
 }

@@ -11,11 +11,11 @@ class SubCatogory {
     }
 }
 
-export const electricGuitars = new SubCatogory("Electric Guitars", electricGuitarImage);
-export const acousticGuitars = new SubCatogory("Acoustic Guitars", acousticGuitarImage);
+export const electricGuitars = new SubCatogory("electric guitars", electricGuitarImage);
+export const acousticGuitars = new SubCatogory("acoustic guitars", acousticGuitarImage);
 
-export const clarinets = new SubCatogory("Clarinets", clarinetImage);
-export const saxophones = new SubCatogory("Saxophones", saxaphoneImage);
+export const clarinets = new SubCatogory("clarinets", clarinetImage);
+export const saxophones = new SubCatogory("saxophones", saxaphoneImage);
 
 
 

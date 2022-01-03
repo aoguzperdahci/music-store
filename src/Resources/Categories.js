@@ -13,8 +13,8 @@ import { electricGuitars,
 }
 
 const Categories = [
-    new Category("Guitars", [electricGuitars, acousticGuitars]),
-    new Category("Wind instruments", [clarinets, saxophones])
+    new Category("guitars", [electricGuitars, acousticGuitars]),
+    new Category("wind instruments", [clarinets, saxophones])
 ];
 
 export default Categories;

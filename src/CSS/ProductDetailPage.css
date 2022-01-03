@@ -1,0 +1,30 @@
+.img {
+    max-height: 500px;
+    width: auto;
+}
+
+.margin-top{
+    margin-top: 15px;
+}
+
+.small.img {
+    width: 120px;
+    height: auto;
+	-webkit-transition: .3s step-start;
+	transition: .3s step-start;
+}
+
+.small.img:hover {
+	opacity: .7;
+    border-bottom: 3px solid rebeccapurple;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}

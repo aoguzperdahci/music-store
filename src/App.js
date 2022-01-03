@@ -4,6 +4,7 @@ import Footer from './Components/Footer';
 import MainCategoryPage from './Pages/MainCategoryPage';
 import MainPage from './Pages/MainPage';
 import SubCategoryPage from './Pages/SubCategoryPage';
+import ProductDetailPage from './Pages/ProductDetailPage';
 
 
 function App() {
@@ -12,17 +13,15 @@ function App() {
 
     <MenuBar/>
 
-
       <Routes>
 
-        <Route path="/" element={<MainPage />}>
-        </Route>
+        <Route path="/" element={<MainPage />}/>
 
-        <Route path="/:mainCategory" element={<MainCategoryPage />}>
-        </Route>
+        <Route path="/:mainCategory" element={<MainCategoryPage />}/>
 
-        <Route path="/:mainCategory/:subCategory" element={<SubCategoryPage />}>
-        </Route>
+        <Route path="/:mainCategory/:subCategory" element={<SubCategoryPage />}/>
+
+        <Route path="/products/:id" element={<ProductDetailPage />}/>
 
       </Routes>
 
