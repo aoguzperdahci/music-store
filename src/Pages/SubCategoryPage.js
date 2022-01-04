@@ -10,7 +10,6 @@ const SubCategoryPage = () => {
     const [product, setProduct] = useState();
     console.log("main: ", mainCategory);
     console.log("sub: ", subCategory);
-    console.log(Products)
 
     useEffect(() => {
         let main = mainCategory.replace("-", " ");
