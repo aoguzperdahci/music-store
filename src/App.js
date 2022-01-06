@@ -6,6 +6,7 @@ import MainPage from './Pages/MainPage';
 import SubCategoryPage from './Pages/SubCategoryPage';
 import ProductDetailPage from './Pages/ProductDetailPage';
 import BCarousel from './Components/BCarousel';
+import Locations from './Pages/Locations';
 
 
 function App() {
@@ -13,7 +14,6 @@ function App() {
     <BrowserRouter>
 
     <MenuBar/>
-    <BCarousel/> 
 
       <Routes>
 
@@ -24,6 +24,8 @@ function App() {
         <Route path="/:mainCategory/:subCategory" element={<SubCategoryPage />}/>
 
         <Route path="/products/:id" element={<ProductDetailPage />}/>
+
+        <Route path="/locations" element={<Locations />}/>
 
       </Routes>
 

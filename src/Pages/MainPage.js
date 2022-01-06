@@ -1,12 +1,12 @@
 import React from 'react'
-
-import Footer from "../Components/Footer";
-import MenuBar from "../Components/MenuBar";
+import BCarousel from '../Components/BCarousel';
 import Page from "../Components/Page";
 
 const MainPage = () => {
     return (
         <div>
+            <BCarousel/> 
+
             <Page></Page>
             
         </div>

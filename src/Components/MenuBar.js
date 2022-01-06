@@ -63,6 +63,7 @@ const MenuBar = () => {
 
                         <Nav.Link href="aboutus">ABOUT US</Nav.Link>
                         <Nav.Link href="contactus">CONTACT US</Nav.Link>
+                        <Nav.Link href="locations">LOCATIONS</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
 
