@@ -8,7 +8,7 @@ export default function BCarousel() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=First slide&bg=373940"
+                        src="https://data.do-re.com.tr/Headline/toledo-gitarlar-79cc3ce17a22e2510503430b62a81d16-dlarge.jpg?v=278694"
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -19,7 +19,7 @@ export default function BCarousel() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=Second slide&bg=282c34"
+                        src="https://data.do-re.com.tr/Headline/epiphone-elektro-gitarlar-f70dfba399b9de4c6bf92bfa7a1a1063-dlarge.jpg?v=825900"
                         alt="Second slide"
                     />
 
@@ -31,7 +31,7 @@ export default function BCarousel() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=Third slide&bg=20232a"
+                        src="https://data.do-re.com.tr/Headline/kurzweil-dijital-piyanolar-f87c2751971411ab3cc47243f2f028cc-dlarge.jpg?v=697448"
                         alt="Third slide"
                     />
 

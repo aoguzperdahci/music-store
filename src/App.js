@@ -13,6 +13,7 @@ function App() {
     <BrowserRouter>
 
     <MenuBar/>
+    <BCarousel/> 
 
       <Routes>
 
@@ -26,8 +27,7 @@ function App() {
 
       </Routes>
 
-      <BCarousel/>
-      <Footer/>
+      <Footer/> 
 
     </BrowserRouter>
   );
