@@ -5,6 +5,7 @@ import MainCategoryPage from './Pages/MainCategoryPage';
 import MainPage from './Pages/MainPage';
 import SubCategoryPage from './Pages/SubCategoryPage';
 import ProductDetailPage from './Pages/ProductDetailPage';
+import BCarousel from './Components/BCarousel';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 
       </Routes>
 
+      <BCarousel/>
       <Footer/>
 
     </BrowserRouter>
