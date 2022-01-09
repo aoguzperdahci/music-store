@@ -39,26 +39,20 @@ const MenuBar = () => {
         redirecting = true;
         navigate(link.replace(" ", "-"))
     }
-
     return (
         <div>
             <Navbar bg="myColour" variant="dark"
-                expand="md" collapseOnSelect>
-                <Navbar.Brand>
-                    <span class="material-icons md-48">dashboard</span>
-                    Music Store
-                </Navbar.Brand>
+                expand="md" collapseOnSelect >
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Nav>
-
-                        {Categories.map((category, index) =>
+                    <span class="material-icons md-48">dashboard</span>
+                    <Nav.Link href ="http://localhost:3000/">MUSIC STORE</Nav.Link>
+                        {Categories.map((category, index) => 
 
                             <NavDropdown className='nav-links text-capitalize' key={index} onClick={() => redirectToCategory(category.name)} show={showSubCategories[index]} onMouseEnter={() => showDropdown(index)} onMouseLeave={() => hideDropdown(index)} title={category.name}>
-
                                 {category.subCategories.map((subCategory, subIndex) =>
                                     <NavDropdown.Item className='text-capitalize' key={index*100+subIndex} onClick={() => redirectToSubCategory( category.name + "/" + subCategory.name)} >{subCategory.name}</NavDropdown.Item>)}
-
                             </NavDropdown>)}
 
                         <Nav.Link href="aboutus">ABOUT US</Nav.Link>

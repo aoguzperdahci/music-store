@@ -1,17 +1,10 @@
 .nav-links {
     height: 35px;
+    font-size: 18px;
+
+}
+.nav-links:hover{
+    background-color:#FF8A80 ;
 }
 
-.nav-links:hover {
-background-color:silver; /*will change background-color of element on hover */
-}
-
-.sticky-menubar{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-}
+  
