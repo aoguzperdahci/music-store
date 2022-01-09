@@ -1,14 +1,17 @@
 import React from 'react';
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Link, useNavigate } from 'react-router-dom';
+import { Col, Image, Nav, Navbar, NavDropdown, Row } from 'react-bootstrap';
 import Categories from '../Resources/Categories';
 import 'bootstrap/dist/css/bootstrap.css';
 import "../CSS/MenuBar.css";
+import "../CSS/menuBar.js";
+import logo from "../Resources/images/logo.png"
 
 const MenuBar = () => {
 
     const [showSubCategories, setShowSubCategories] = useState(Array(Categories.length).fill(false));
+    const [expand, setExpand] = useState(false);
 
     var redirecting = false;
 
@@ -30,37 +33,50 @@ const MenuBar = () => {
         if (redirecting) {
             redirecting = false;
         } else {
-            navigate(link.replace(" ", "-"))
+            navigate(link.replace(" ", "-"));
         }
 
+        setExpand(false);
     }
 
     const redirectToSubCategory = link => {
         redirecting = true;
-        navigate(link.replace(" ", "-"))
+        navigate(link.replace(" ", "-"));
     }
  
     return (
         <div>
-            <Navbar bg="myColour" variant="dark"
-                expand="md" collapseOnSelect >
-                <Navbar.Toggle />
+            <Navbar id='top-bar'>
+                <Row style={{ width: "100%" }}>
+                    <Nav.Link onClick={() => navigate("/aboutus")} style={{ marginLeft: 15 }}>About Us</Nav.Link>
+                    <Nav.Link onClick={() => navigate("/contactus")} style={{}}>Contact Us</Nav.Link>
+
+                    <Link to="/" className='navbar-brand'>
+                        <Image className='logo' src={logo}></Image>
+                    </Link>
+
+                    <Nav.Link onClick={() => navigate("/locations")} style={{ marginRight: 15, marginLeft: "auto" }}>Locations</Nav.Link>
+                </Row>
+            </Navbar>
+
+            <Navbar id='menu' variant="dark"
+                expand="md" collapseOnSelect expanded={expand}>
+                <Navbar.Toggle onClick={() => setExpand(!expand)} />
                 <Navbar.Collapse>
                     <Nav>
                     <span class="material-icons md-48">dashboard</span>
                     <Nav.Link href ="http://localhost:3000/">MUSIC STORE</Nav.Link>
                         {Categories.map((category, index) => 
 
-                            <NavDropdown className='nav-links text-capitalize' key={index} onClick={() => redirectToCategory(category.name)} show={showSubCategories[index]} onMouseEnter={() => showDropdown(index)} onMouseLeave={() => hideDropdown(index)} title={category.name}>
+                            <NavDropdown className='nav-links text-capitalize' key={index} onClick={() => redirectToCategory(category.name)} show={showSubCategories[index] && window.innerWidth > 767} onMouseEnter={() => showDropdown(index)} onMouseLeave={() => hideDropdown(index)} title={category.name}>
+
                                 {category.subCategories.map((subCategory, subIndex) =>
-                                    <NavDropdown.Item className='text-capitalize' key={index*100+subIndex} onClick={() => redirectToSubCategory( category.name + "/" + subCategory.name)} >{subCategory.name}</NavDropdown.Item>)}
+                                    <NavDropdown.Item className='nav-items text-capitalize' key={index * 100 + subIndex} onClick={() => redirectToSubCategory(category.name + "/" + subCategory.name)} >{subCategory.name}</NavDropdown.Item>)}
+
                             </NavDropdown>)}
-                        <Nav.Link href="aboutus">ABOUT US</Nav.Link>
-                        <Nav.Link href="contactus">CONTACT US</Nav.Link>
-                        <Nav.Link href="locations">LOCATIONS</Nav.Link>
+
                     </Nav>
                 </Navbar.Collapse>
-
             </Navbar>
         </div>
     )

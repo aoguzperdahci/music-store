@@ -3,10 +3,6 @@
     width: auto;
 }
 
-.margin-top{
-    margin-top: 15px;
-}
-
 .small.img {
     width: 120px;
     height: auto;
@@ -16,15 +12,45 @@
 
 .small.img:hover {
 	opacity: .7;
-    border-bottom: 3px solid rebeccapurple;
-}
-
-.blue {
-    background-color: #E57373;
+    border-bottom: 3px solid #303841;
 }
 
 .link {
     text-decoration: none;
-    color: whitesmoke;
+    color: #303841;
     font-size: large;
+}
+
+.link:hover {
+    color: #303841;
+    opacity: .7;
+}
+
+.img-badge {
+    width: 40px;
+    height: 40px;
+}
+
+.badge-item {
+    display: block;
+}
+
+.item-number {
+    opacity: .8;
+}
+
+ul li {
+    list-style-position: inside;
+}
+
+.breadcrumb {
+    margin-bottom: 3px;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border: 2px solid rgb(0, 0, 0);
 }
