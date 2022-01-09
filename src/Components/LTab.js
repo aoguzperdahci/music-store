@@ -13,32 +13,32 @@ function LTab() {
                     <Col sm={3} className="nav-justified">
                         <Nav variant="pills" className="flex-column">
                             <Nav.Item>
-                                <Nav.Link eventKey="first">ANTALYA</Nav.Link>
+                                <Nav.Link className="nav-item" eventKey="first">ANTALYA</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item >
+                                <Nav.Link className="nav-item" eventKey="second">BURSA</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="second">BURSA</Nav.Link>
+                                <Nav.Link className="nav-item" eventKey="third">ISTANBUL</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="third">ISTANBUL</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey="fourth">IZMIR</Nav.Link>
+                                <Nav.Link className="nav-item" eventKey="fourth">IZMIR</Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Col>
                     <Col sm={9} className="tab-justified">
                         <Tab.Content>
                             <Tab.Pane eventKey="first">
-                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Etiler Mah. Evliya Çelebi Cd. No:21/B Muratpaşa / ANTALYA</p>
                             </Tab.Pane>
                             <Tab.Pane eventKey="second">
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Değirmenlikızık Mh. Çiçek Cd. 1. Dışkaya Sk. No:17 Yıldırım / BURSA</p>
                             </Tab.Pane>
                             <Tab.Pane eventKey="third">
-                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Arnavutköy Merkez Mahallesi, 23 Nisan Cd. No:1, Arnavutköy / İSTANBUL</p>
                             </Tab.Pane>
                             <Tab.Pane eventKey="fourth">
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>İsmet Kaptan Mah. Şevket Özçelik Sk. No:59 D Konak / İZMİR</p>
                             </Tab.Pane>
                         </Tab.Content>
                     </Col>
