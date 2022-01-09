@@ -3,5 +3,15 @@
 }
 
 .nav-links:hover {
-background-color:green; /*will change background-color of element on hover */
+background-color:silver; /*will change background-color of element on hover */
+}
+
+.sticky-menubar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }

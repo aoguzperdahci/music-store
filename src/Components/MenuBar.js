@@ -43,7 +43,7 @@ const MenuBar = () => {
     return (
         <div>
             <Navbar bg="myColour" variant="dark"
-                sticky="top" expand="md" collapseOnSelect>
+                expand="md" collapseOnSelect>
                 <Navbar.Brand>
                     <span class="material-icons md-48">dashboard</span>
                     Music Store
@@ -71,5 +71,4 @@ const MenuBar = () => {
         </div>
     )
 }
-
 export default MenuBar
