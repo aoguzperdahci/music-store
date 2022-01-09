@@ -9,14 +9,15 @@ footer{
   }
   
   .footer-bottom{
-    background: #3d6277;
-    padding: 2em;
+    background: #303841;
+    color: white;
+    padding: 1rem;
   }
   .footer-top{
-    background: #2d4958;  
+    background: #303841;  
   }
   .footer-middle{
-     background: #3d6277;
+     background: #303841;
     padding-top: 2em;
     color: white;
   }
