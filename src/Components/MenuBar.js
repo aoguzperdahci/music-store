@@ -64,8 +64,6 @@ const MenuBar = () => {
                 <Navbar.Toggle onClick={() => setExpand(!expand)} />
                 <Navbar.Collapse>
                     <Nav>
-                    <span class="material-icons md-48">dashboard</span>
-                    <Nav.Link href ="http://localhost:3000/">MUSIC STORE</Nav.Link>
                         {Categories.map((category, index) => 
 
                             <NavDropdown className='nav-links text-capitalize' key={index} onClick={() => redirectToCategory(category.name)} show={showSubCategories[index] && window.innerWidth > 767} onMouseEnter={() => showDropdown(index)} onMouseLeave={() => hideDropdown(index)} title={category.name}>
