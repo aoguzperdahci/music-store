@@ -39,6 +39,7 @@ const MenuBar = () => {
         redirecting = true;
         navigate(link.replace(" ", "-"))
     }
+ 
     return (
         <div>
             <Navbar bg="myColour" variant="dark"
@@ -54,7 +55,6 @@ const MenuBar = () => {
                                 {category.subCategories.map((subCategory, subIndex) =>
                                     <NavDropdown.Item className='text-capitalize' key={index*100+subIndex} onClick={() => redirectToSubCategory( category.name + "/" + subCategory.name)} >{subCategory.name}</NavDropdown.Item>)}
                             </NavDropdown>)}
-
                         <Nav.Link href="aboutus">ABOUT US</Nav.Link>
                         <Nav.Link href="contactus">CONTACT US</Nav.Link>
                         <Nav.Link href="locations">LOCATIONS</Nav.Link>
