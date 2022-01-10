@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../CSS/Footer.css"
+import { FaFacebookSquare, FaTwitterSquare, FaYoutubeSquare, FaInstagramSquare } from "react-icons/fa";
 
 function Footer() {
     return (
@@ -10,17 +11,13 @@ function Footer() {
                         {/* Column 1 */}
                         <div className="col-md-3 col-sm-6">
                         <div className="footer-pad">
-                            <h4>Address</h4>
                             <address>
                                 <ul className="list-unstyled">
                                     <li>
-                                        City Hall<br />
-                                        212  Street<br />
-                                        Lawoma<br />
-                                        735<br />
-                                    </li>
-                                    <li>
-                                        Phone: 0
+                                        Bağdat Cad. No: 33 Tünel /<br />
+                                        Beşiktaş / İSTANBUL<br />
+                                        Tel: 0212 000 0000<br />
+                                        info@elifahmetedamuzik.com<br />
                                     </li>
                                 </ul>
                             </address>
@@ -29,44 +26,36 @@ function Footer() {
                         {/* Column 1 */}
                         <div className="col-md-3 col-sm-6">
                         <div className="footer-pad">
-                            <h4>Popular Services</h4>
+                            <h4>Categories</h4>
                             <ul className="list-unstyled">
                                 <li><a href="#"></a></li>
-                                <li><a href="#">Payment Center</a></li>
-                                <li><a href="#">Contact Directory</a></li>
-                                <li><a href="#">Forms</a></li>
-                                <li><a href="#">News and Updates</a></li>
-                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Guitars</a></li>
+                                <li><a href="#">Wind Instruments</a></li>
+                                <li><a href="#">Piano</a></li>
+                                <li><a href="#">Stringed Instruments</a></li>
                             </ul>
                         </div>
                         </div>
                         {/* Column 1 */}
                         <div className="col-md-3 col-sm-6">
                         <div className="footer-pad">
-                            <h4>Website Information</h4>
+                            <h4>Important Information</h4>
                             <ul className="list-unstyled">
-                                <li><a href="#">Website Tutorial</a></li>
+                                <li><a href="#">Human Resources</a></li>
                                 <li><a href="#">Accessibility</a></li>
                                 <li><a href="#">Disclaimer</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
                                 <li><a href="#">FAQs</a></li>
-                                <li><a href="#">Webmaster</a></li>
+                                <li><a href="#">Clarification Text</a></li>
                             </ul>
                         </div>
                         </div>
                         {/* Column 1 */}
                         <div className="col-md-3 col-sm-6">
                         <div className="footer-pad">
-                            <h4>Popular Departments</h4>
+                            <h4>Follow Us</h4>
                             <ul className="list-unstyled">
-                                <li><a href="#">Parks and Recreation</a></li>
-                                <li><a href="#">Public Works</a></li>
-                                <li><a href="#">Police Department</a></li>
-                                <li><a href="#">Fire</a></li>
-                                <li><a href="#">Mayor and City Council</a></li>
-                                <li>
-                                    <a href="#"></a>
-                                </li>
+                                <li><a href="#"><FaFacebookSquare size='3em'/></a><a href="#"><FaTwitterSquare size='3em'/></a><a href="#"><FaInstagramSquare size='3em'/></a><a href="#"><FaYoutubeSquare size='3em'/></a></li>
                             </ul>
                         </div>
                         </div>
