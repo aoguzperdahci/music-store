@@ -5,8 +5,7 @@ import MainCategoryPage from './Pages/MainCategoryPage';
 import MainPage from './Pages/MainPage';
 import SubCategoryPage from './Pages/SubCategoryPage';
 import ProductDetailPage from './Pages/ProductDetailPage';
-import BCarousel from './Components/BCarousel';
-import Locations from './Pages/Locations';
+import LocationsPage from './Pages/LocationsPage';
 
 
 function App() {
@@ -25,7 +24,7 @@ function App() {
 
         <Route path="/products/:id" element={<ProductDetailPage />}/>
 
-        <Route path="/locations" element={<Locations />}/>
+        <Route path="/locations" element={<LocationsPage />}/>
 
       </Routes>
 

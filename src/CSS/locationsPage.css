@@ -1,0 +1,82 @@
+@media only screen and (max-width: 600px) {
+
+    .map {
+        width: 450px;
+        height: 350px;
+    }
+
+    .locations-text-wrapper {
+        width: 450px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .map {
+        width: 500px;
+        height: 400px;
+    }
+
+    .locations-text-wrapper {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .map {
+        width: 600px;
+        height: 400px;
+    }
+
+    .locations-text-wrapper {
+        width: 600px;
+        margin: auto;
+    }
+}
+
+.locations-text-wrapper {
+    margin: auto;
+}
+
+.locations-phone {
+    float: left;
+    margin-left: 10%;
+}
+
+.locations-schedule {
+    float: right;
+    margin-right: 10%;
+}
+
+.locations-icon {
+    font-size: larger;
+    margin-right: 3px;
+    margin-top: -3px;
+}
+
+.locations-logo {
+    width: 120px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.list-group-item {
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 35px;
+    background-color: #303841;
+    border-color: #303841;
+    color: #F0F5F9;
+}
+
+.list-group-item.active{
+    background-color: #F0F5F9;
+    border-color: #303841;
+    color: #303841;
+}

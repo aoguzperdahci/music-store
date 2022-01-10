@@ -1,7 +1,6 @@
 import React from 'react'
 import BCarousel from '../Components/BCarousel';
 import Jumbotron from '../Components/Jumbotron';
-import Page from "../Components/Page";
 
 const MainPage = () => {
     return (

@@ -1,10 +1,10 @@
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {stickyNav()};
 
 
 
-function myFunction() {
+function stickyNav() {
     var navbar = document.getElementById("menu");
-    var sticky = 63;
+    var sticky = 66;
 
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
