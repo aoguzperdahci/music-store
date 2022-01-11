@@ -1,29 +1,18 @@
-footer{
-    color: white;
-  }
-  footer a{
-    color: #bfffff;
-  }
-  footer a:hover{
-    color: white;
-  }
-  
-  .footer-bottom{
-    background: #303841;
-    color: white;
-    padding: 1rem;
-  }
-  .footer-top{
-    background: #303841;  
-  }
-  .footer-middle{
-     background: #303841;
-    padding-top: 2em;
-    color: white;
-  }
-  .list-unstyled{
-    color:rgb(221, 221, 221)
-  }
-  .footer-pad{
-    color:rgb(221, 221, 221)
-  }
+.footer-middle{
+  background: #303841;
+  color: #F0F5F9;
+}
+
+.footer-logo {
+  width: 150px;
+  height: auto;
+}
+
+.footer-link {
+  color: #F0F5F9;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #bfffff;
+}

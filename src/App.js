@@ -6,6 +6,8 @@ import MainPage from './Pages/MainPage';
 import SubCategoryPage from './Pages/SubCategoryPage';
 import ProductDetailPage from './Pages/ProductDetailPage';
 import LocationsPage from './Pages/LocationsPage';
+import AboutUsPage from './Pages/AboutUsPage';
+import ContactUsPage from './Pages/ContactUsPage';
 
 
 function App() {
@@ -17,6 +19,10 @@ function App() {
       <Routes>
 
         <Route path="/" element={<MainPage />}/>
+
+        <Route path="/aboutus" element={<AboutUsPage />}/>
+
+        <Route path="/contactus" element={<ContactUsPage />}/>
 
         <Route path="/:mainCategory" element={<MainCategoryPage />}/>
 

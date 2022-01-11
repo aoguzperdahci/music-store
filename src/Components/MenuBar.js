@@ -48,14 +48,14 @@ const MenuBar = () => {
         <div>
             <Navbar id='top-bar'>
                 <Row style={{ width: "100%" }}>
-                    <Nav.Link onClick={() => navigate("/aboutus")} style={{ marginLeft: 15 }}>About Us</Nav.Link>
-                    <Nav.Link onClick={() => navigate("/contactus")} style={{}}>Contact Us</Nav.Link>
+                    <Nav.Link onClick={() => navigate("/aboutus")} style={{ marginLeft: 15, marginTop:7, marginBottom:3 }}>About Us</Nav.Link>
+                    <Nav.Link onClick={() => navigate("/contactus")} style={{marginTop:7, marginBottom:3}}>Contact Us</Nav.Link>
 
                     <Link to="/" className='navbar-brand'>
                         <Image className='logo' src={logo}></Image>
                     </Link>
 
-                    <Nav.Link onClick={() => navigate("/locations")} style={{ marginRight: 15, marginLeft: "auto" }}>Locations</Nav.Link>
+                    <Nav.Link onClick={() => navigate("/locations")} style={{ marginRight: 15, marginLeft: "auto", marginTop:7, marginBottom:3 }}>Locations</Nav.Link>
                 </Row>
             </Navbar>
 
