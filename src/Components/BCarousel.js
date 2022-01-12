@@ -9,7 +9,7 @@ export default function BCarousel() {
                 <Carousel.Item>
                     <Row>
                         <Col lg={4} className='d-none d-lg-block text-center my-auto'>
-                        <h3>First slide label</h3>
+                        <h3>First Slide Label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Col>
 
@@ -22,7 +22,7 @@ export default function BCarousel() {
                     </Row>
 
                     <Carousel.Caption className='d-lg-none'>
-                        <h3>First slide label</h3>
+                        <h3>First Slide Label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
 

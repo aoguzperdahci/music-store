@@ -1,0 +1,47 @@
+.contact-us{
+    color: black;
+    padding:40px;
+    font-size:20px;
+    font-family: 'Helvetica, Arial, sans-serif';
+}
+
+.upper-heading{
+    background-image: linear-gradient(
+        to right,
+        rgb(214, 221, 218) 0%,
+        rgb(71, 73, 73) 100%
+    );
+}
+
+.form{
+    max-width: 400px;
+    margin:auto;
+    text-align: center;
+}
+
+.form label {
+    text-align:left;
+    display: block;
+}
+
+.form input, .from select{
+    width: 100%;
+    padding:6px 10px;
+    margin:10px 0px;
+    border:1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+
+.form button{
+    background-color: #616161;
+    color:white;
+    padding:8px;
+    cursor:pointer;
+    border-radius: 8px;
+    border:0;
+}
+
+.topic{
+    text-align: left;
+}
