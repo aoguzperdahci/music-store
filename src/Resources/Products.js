@@ -14,7 +14,6 @@ import KawaiK300WHPSLPianoImage from "./images/Kawai K-300 WHP SL Piano.png"
 import YamahaP121MPEPianoImage from "./images/Yamaha P 121 M PE Piano.png"
 import Seiler116KonsoleChromImage from "./images/Seiler 116 Konsole Chrom.png"
 
-
 class Product{
     constructor(id, name, mainCategoryNo, subCategoryNo, price, description, images){
         this.id = id;
@@ -34,9 +33,8 @@ const Products = [
     new Product(3,"Bruce Springsteen model","Body shape: Dreadnought with cutaway","Body and sides: Maple","Top: Solid cedar","Bridge and fingerboard: Rosewood (Dalbergia Latifolia)","Fretboard inlays: Mother of pearl snowflake dots","CT4B preamp with pickup and tuner","Ex-factory stringing: Daddario EXP16 .012 - .053 (Article Nr 147540)","Colour: High gloss black","Case included",[TakamineEF341SCImage, TakamineEF341SC_1Image, TakamineEF341SC_2Image, TakamineEF341SC_3Image]),
     new Product(4,"Design: Dreadnought","Top: Laminated spruce","Bottom and sides: Laminated mahogany","Neck: Mahogany","Fretboard and bridge: Walnut","20 Frets","Scale: 643 mm","Nut width: 43 mm (1.69)","Colour: Sunburst","Strings: Fender 880L (Art.254209)",[FenderCDSBV3Image, FenderCDSBV3_1Image, FenderCDSBV3_2Image]),
     new Product(5,"Millennium III hammer mechanics with ABS carbon parts of unmatched sturdiness and robustness","Mahogany hammer core","Hammer heads with bottom felt","Extended keyboard","100 cm Sheet music rest","Slowly closing keyboard cover","88 Keys","3 Pedals","Dimensions (H x W x D): 122 x 149 x 61 cm","Weight: 227 kg","Finish: White, polished with chrome fittings","Delivery Germany-wide and first tuning service included",[KawaiK300WHPSLPianoImage]),
-    new Product(6,"Bruce Springsteen model","Body shape: Dreadnought with cutaway","Body and sides: Maple","Top: Solid cedar","Bridge and fingerboard: Rosewood (Dalbergia Latifolia)","Fretboard inlays: Mother of pearl snowflake dots","CT4B preamp with pickup and tuner","Ex-factory stringing: Daddario EXP16 .012 - .053 (Article Nr 147540)","Colour: High gloss black","Case included",[YamahaP121MPEPianoImage]),
-    new Product(7,"Bruce Springsteen model","Body shape: Dreadnought with cutaway","Body and sides: Maple","Top: Solid cedar","Bridge and fingerboard: Rosewood (Dalbergia Latifolia)","Fretboard inlays: Mother of pearl snowflake dots","CT4B preamp with pickup and tuner","Ex-factory stringing: Daddario EXP16 .012 - .053 (Article Nr 147540)","Colour: High gloss black","Case included",[Seiler116KonsoleChromImage])
-
+    new Product(6,"Designed in Europe to European preferences, the P121 boasts exquisite cabinetry, European spruce soundboard and back posts and the rich, expressive voice of a full-sized upright.","Dimensions: Width: 152 cm, Depth: 60 cm, Height: 121 cm","Weight: 215 kg","Colour: Black, polished","Piano bench, piano light and Germany-wide delivery included",[YamahaP121MPEPianoImage]),
+    new Product(7,"From German production","Renner-action","Abel-hammer heads","3 Pedals","Height: 117 cm","Width: 146 cm","Depth: 56 cm","Knee height: 67 cm","Weight: 215 kg","Colour: Black Polished","Transport nationwide included in the price - will be intonated and tuned by our master piano builder before delivery","5 Years warranty",[Seiler116KonsoleChromImage])
 
 ];
 
