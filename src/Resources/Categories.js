@@ -8,7 +8,7 @@ import { electricGuitars,
     violin,
     cello,
     ukulele,
-    electricDrums,
+    electronicDrums,
     acousticDrums
  } from "./SubCategory";
 
@@ -25,7 +25,7 @@ const Categories = [
     new Category("wind instruments", [clarinets, saxophones]),
     new Category("piano",[classicalPiano, wallPiano, digitalPiano]),
     new Category("stringed instruments",[violin, cello, ukulele ]),
-    new Category("drums",[electricDrums, acousticDrums])
+    new Category("drums",[electronicDrums, acousticDrums])
 ];
 
 export default Categories;
