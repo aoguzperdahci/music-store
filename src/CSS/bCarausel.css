@@ -1,29 +1,25 @@
 .crsl-img {
-    width:80%;
-    height:auto;
+    max-width:80%;
     margin-left: 10%;
     border: solid 1px #555;
     background-color: #eed;
-    box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
-    -moz-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
-    -webkit-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
-    -o-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
     border-radius:25px;
+    width: 800px;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-@media only screen and (max-width:700px){
-    .crsl-img{
-        width: 100%;
-    }
-}
+
 .heading-carausel{
     background-image: linear-gradient(
         to right,
         rgb(213, 219, 217) 0%,
-        rgb(184, 189, 189) 100%
+        rgb(220, 228, 228) 100%
     );
     font-size: 45px;
     color: rgb(73, 78, 78);
     padding-left: 100px;
+    font-weight: bold;
 }
 
 .text-carausel{

@@ -34,8 +34,8 @@ export default function BCarousel() {
                     </Row>
 
                     <Carousel.Caption className='d-lg-none'>
-                        <h3>dkfnd</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Check Out For Campaigns</h3>
+                        <p>Valid until 31st January!</p>
                     </Carousel.Caption>
                     
 
@@ -59,8 +59,8 @@ export default function BCarousel() {
                     </Row>
 
                     <Carousel.Caption className='d-lg-none'>
-                        <h3>First Slide Label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Stocks are now renewed!</h3>
+                        <p>Go check for the newest brands.</p>
                     </Carousel.Caption>
                     
 
@@ -83,8 +83,8 @@ export default function BCarousel() {
                     </Row>
 
                     <Carousel.Caption className='d-lg-none'>
-                        <h3>First Slide Label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>The most preferred models and brands.</h3>
+                        <p>Many instrumental stuff are finally available again!</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 

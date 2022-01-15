@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap';
 import BCarousel from '../Components/BCarousel';
-import Jumbotron from '../Components/Jumbotron';
 import ProductItem from "../Components/ProductItem";
 import Products from '../Resources/Products';
 import Categories from '../Resources/Categories';
@@ -11,7 +10,7 @@ const MainPage = () => {
     return (
         <div>
             <BCarousel/> 
-            <h2 className='text-center'>Product Highlights</h2>
+            <h3 className='text-center'>Product Highlights</h3>
             <Row className='d-flex justify-content-start mb-4 me-0'>
                 {Products.map(p =>
                     p.popular &&
