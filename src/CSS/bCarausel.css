@@ -15,7 +15,7 @@
         width: 100%;
     }
 }
-.heading{
+.heading-carausel{
     background-image: linear-gradient(
         to right,
         rgb(213, 219, 217) 0%,
@@ -26,15 +26,15 @@
     padding-left: 100px;
 }
 
-.text{
-    font-size: 80px;
+.text-carausel{
+    font-size: 20px;
     padding-left: 100px;
     font-style: italic;
     font-family: serif;
     padding-top: 20px;
 }
 
-.img-size{
+.img-size-carausel{
     width: 500px;
     height: 150px;
     position: center;
@@ -42,7 +42,7 @@
     padding-left: 100px;
 }
 @media only screen and (max-width:700px){
-    .img-size{
+    .img-size-carausel{
         width: 100%;
     }
 }

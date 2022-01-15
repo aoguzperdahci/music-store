@@ -26,7 +26,7 @@ export const clarinets = new SubCatogory("clarinets", clarinetImage);
 export const saxophones = new SubCatogory("saxophones", saxaphoneImage);
 
 export const classicalPiano = new SubCatogory("classical Piano", classicalPianoImage);
-export const wallPiano = new SubCatogory("wall Piano", wallPianoImage);
+export const wallPiano = new SubCatogory("wall Piano", wallPianoImage,true);
 export const digitalPiano = new SubCatogory("digital Piano",digitalPianoImage);
 
 export const violin = new SubCatogory("violin",violinImage);
