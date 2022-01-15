@@ -4,14 +4,14 @@
 }
 
 body {
-  margin: 0;
+  margin: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #D6E6F2;
+  background-color: #d68a67;
 }
 
 #root {
-  background-color: #F0F5F9;
+  background-color:#E0E0E0;
 }
 
 * :not(.material-icons){
