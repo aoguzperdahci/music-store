@@ -66,17 +66,4 @@
     font-size: 20px;
 }
 
-.more-text{
-    display: none;
-}
-.read-more-button{
-    padding:5px 5px;
-    background-color: #616161;
-    color: white;
-    cursor:pointer;
-    font-size: 15px;
-}
 
-.read-more-text--show{
-    display: inline;
-}
