@@ -25,3 +25,7 @@ body {
 .bg-secondary {
   background-color: #D6E6F2;
 }
+
+.min-page-height {
+  min-height: 554px;
+}

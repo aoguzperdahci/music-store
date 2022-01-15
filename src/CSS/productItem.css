@@ -1,0 +1,54 @@
+.product-card {
+    border-radius: 25px;
+    width: 18rem;
+    height: 25rem;
+}
+
+.product-item {
+    width: 18rem;
+    height: 25rem;
+}
+
+.product-img {
+    border-radius: 25px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    max-width: 17rem;
+    max-height: 17rem;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: auto;
+    object-fit: cover;
+}
+
+.product-title {
+    text-decoration: none;
+    position: absolute;
+    top: 17.5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.product-price-div {
+    position: relative;
+    height: 100%;
+}
+
+.product-price {
+    text-decoration: none;
+    position: absolute;
+    bottom: .5rem;
+    width: 100%;
+}
+
+.product-link {
+    text-decoration: none;
+    color: black;
+}
+
+.product-link:hover {
+    color: grey;
+    opacity: .9;
+    border-color: black;
+}
