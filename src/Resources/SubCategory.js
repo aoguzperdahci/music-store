@@ -8,7 +8,8 @@ import digitalPianoImage from "./images/digitalPiano.jpg";
 import violinImage from "./images/violin.jpg";
 import celloImage from "./images/cello.jpg";
 import ukuleleImage from "./images/ukulele.jpg";
-
+import acousticDrumImage from "./images/acousticDrum.png";
+import electronicDrumImage from "./images/electronicDrum.png";
 
 class SubCatogory {
     constructor(name, image){
@@ -30,4 +31,7 @@ export const digitalPiano = new SubCatogory("digital Piano",digitalPianoImage);
 export const violin = new SubCatogory("violin",violinImage);
 export const cello = new SubCatogory("cello",celloImage);
 export const ukulele = new SubCatogory("ukulele",ukuleleImage);
+
+export const electronicDrums = new SubCatogory("electronic drums", electronicDrumImage);
+export const acousticDrums = new SubCatogory("acoustic drums", acousticDrumImage);
 
