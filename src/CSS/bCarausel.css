@@ -2,53 +2,15 @@
     width:80%;
     height:auto;
     margin-left: 10%;
-    border-radius:20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 800px;
-    height: 420px;
+    border: solid 1px #555;
+    background-color: #eed;
+    box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    border-radius:25px;
 }
-@media only screen and (max-width:700px){
-    .crsl-img{
-        width: 100%;
-    }
-}
-.heading{
-    background-image: linear-gradient(
-        to right,
-        rgb(213, 219, 217) 0%,
-        rgb(184, 189, 189) 100%
-    );
-    font-size: 70px;
-    color: rgb(199, 202, 202);
-    padding-left: 100px;
+h{
+    background-color: blue;
 }
 
-.text{
-    font-size: 80px;
-    padding-left: 100px;
-    font-style: italic;
-    font-family: serif;
-    padding-top: 20px;
-}
-
-.img-size{
-    width: 500px;
-    height: 150px;
-    position: center;
-    padding: 15px;
-    padding-left: 100px;
-}
-@media only screen and (max-width:700px){
-    .img-size{
-        width: 100%;
-    }
-}
-
-.background{
-    background-image: linear-gradient(
-        to right,
-        rgb(245, 245, 245) 0%,
-        rgb(190, 190, 190) 90%
-    );
-}
