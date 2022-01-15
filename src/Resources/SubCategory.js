@@ -12,14 +12,13 @@ import acousticDrumImage from "./images/acousticDrum.png";
 import electronicDrumImage from "./images/electronicDrum.png";
 
 class SubCatogory {
-    constructor(name, image, popular){
+    constructor(name, image){
         this.name = name;
         this.image = image;
-        this.popular = popular
     }
 }
 
-export const electricGuitars = new SubCatogory("electric guitars", electricGuitarImage, true);
+export const electricGuitars = new SubCatogory("electric guitars", electricGuitarImage);
 export const acousticGuitars = new SubCatogory("acoustic guitars", acousticGuitarImage);
 
 export const clarinets = new SubCatogory("clarinets", clarinetImage);
@@ -33,6 +32,6 @@ export const violin = new SubCatogory("violin",violinImage);
 export const cello = new SubCatogory("cello",celloImage);
 export const ukulele = new SubCatogory("ukulele",ukuleleImage);
 
-export const electronicDrums = new SubCatogory("electronic drums", electronicDrumImage, true);
+export const electronicDrums = new SubCatogory("electronic drums", electronicDrumImage);
 export const acousticDrums = new SubCatogory("acoustic drums", acousticDrumImage);
 

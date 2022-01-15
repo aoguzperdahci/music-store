@@ -1,9 +1,8 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import { Col, Row } from 'react-bootstrap';
+import { useParams, Link } from 'react-router-dom';
 import Products from '../Resources/Products';
-import ProductItem from '../Components/ProductItem';
+
 
 const SubCategoryPage = () => {
 
@@ -21,15 +20,8 @@ const SubCategoryPage = () => {
     }, [mainCategory, subCategory]);
 
     return (
-        <div className='min-page-height'>
-            <p className='fs-2 text-capitalize text-center mt-4 mb-4'>{subCategory.replace("-", " ")}</p>
-            <Row className='d-flex justify-content-start mb-4 me-0'>
-                {product?.map(p =>
-                    <Col xs={6} md={4} lg={3} xxl={2} className='d-flex justify-content-center mb-3'>
-                        <ProductItem product={p}></ProductItem>
-                    </Col>
-                )}
-            </Row>
+        <div>
+            {product?.map(p => p.name)}
         </div>
     )
 }

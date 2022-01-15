@@ -4,12 +4,11 @@
 }
 
 .small.img {
-    width: auto;
-    height: auto;
-    max-width: 120px;
-    max-height: 120px;
+    width: 120px;
+    height: 150x;
 	-webkit-transition: .3s step-start;
 	transition: .3s step-start;
+
 }
 
 .small.img:hover {

@@ -1,6 +1,16 @@
 .contact-us{
     color: black;
+    padding:40px;
     font-size:20px;
+    font-family: 'Helvetica, Arial, sans-serif';
+}
+
+.upper-heading{
+    background-image: linear-gradient(
+        to right,
+        rgb(214, 221, 218) 0%,
+        rgb(71, 73, 73) 100%
+    );
 }
 
 .form{

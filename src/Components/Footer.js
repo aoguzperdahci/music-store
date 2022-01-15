@@ -30,10 +30,10 @@ function Footer() {
                         <h4>Follow Us</h4>
                         <ul className="list-unstyled">
                             <li>
-                                <a href="#"><FaFacebookSquare className='footer-icon' /></a>
-                                <a href="#"><FaTwitterSquare className='footer-icon' /></a>
-                                <a href="#"><FaInstagramSquare className='footer-icon' /></a>
-                                <a href="#"><FaYoutubeSquare className='footer-icon' /></a>
+                                <a href="#"><FaFacebookSquare color='#F0F5F9' size='3em' /></a>
+                                <a href="#"><FaTwitterSquare color='#F0F5F9' size='3em' /></a>
+                                <a href="#"><FaInstagramSquare color='#F0F5F9' size='3em' /></a>
+                                <a href="#"><FaYoutubeSquare color='#F0F5F9' size='3em' /></a>
                             </li>
                         </ul>
                     </div>
@@ -43,8 +43,9 @@ function Footer() {
                         <address>
                             <ul className="list-unstyled">
                                 <li>
-                                    Kemal Paşa, 15 Temmuz Şehitleri Cd No:5 D:5, 34134 Fatih/İstanbul<br />
-                                    Phone: (0212) 455 1300<br />
+                                    Bağdat Cad. No: 33 Tünel /<br />
+                                    Beşiktaş / İSTANBUL<br />
+                                    Tel: 0212 000 0000<br />
                                     info@elifahmetedamuzik.com<br />
                                 </li>
                             </ul>
@@ -53,6 +54,7 @@ function Footer() {
                 </div>
             </div>
         </div>
+
     );
 }
 
