@@ -4,6 +4,10 @@
     border-radius: 25px;
 }
 
+.category-card:hover {
+    border-color: black;
+}
+
 .category-image {
     display: inline-block;
     width: auto;
@@ -16,9 +20,6 @@
 
 .category-text {
     line-height: 14rem;
-}
-
-.category-col {
 }
 
 .category-div {

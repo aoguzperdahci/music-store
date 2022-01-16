@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MenuBar from './Components/MenuBar';
 import Footer from './Components/Footer';
 import MainCategoryPage from './Pages/MainCategoryPage';

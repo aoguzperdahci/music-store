@@ -1,9 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Col, Image, Nav, Navbar, NavDropdown, Row } from 'react-bootstrap';
+import { Image, Nav, Navbar, NavDropdown, Row } from 'react-bootstrap';
 import Categories from '../Resources/Categories';
-import 'bootstrap/dist/css/bootstrap.css';
 import "../CSS/MenuBar.css";
 import "../CSS/menuBar.js";
 import logo from "../Resources/images/logo.png"

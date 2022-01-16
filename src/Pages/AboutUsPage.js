@@ -1,5 +1,4 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "../CSS/AboutUs.css";
 import { Col, Image, Row } from 'react-bootstrap';
 import Company1Image from "../Resources/images/about_us_1.jpg";

@@ -21,7 +21,7 @@ export default function BCarousel() {
                        
                         </p> 
                         </div>
-                        <Image className='img-size-carausel' src={pianobrandsImage}></Image>
+                        <Image className='img-size-carausel d-none d-xl-block' src={pianobrandsImage}></Image>
                         </Col>
 
                         <Col lg={8}>
@@ -45,8 +45,7 @@ export default function BCarousel() {
                         <Col lg={4} className='d-none d-lg-block text-center my-auto'>
                         <h3 className='heading-carausel'>Best Ukulele Brands Are Back In Stock</h3>
                         <p className='text-carausel'>The most preferred models and brands all over the world are at your fingertips
-                         with the privilege of our brand. We provide free delivery to all over the country. We give at
-                          least 2 years of guarentee on our every brand of pianos. </p>
+                         with the privilege of our brand.</p>
                         </Col>
 
                         <Col lg={8}>
@@ -71,7 +70,7 @@ export default function BCarousel() {
                         <h3 className='heading-carausel'>Everything You Are Looking For</h3>
                         <p className='text-carausel'>Many instrumental stuff are finally available again! Every little instrumental 
                         tool you are in need is on this website. We have renewed our stocks! Check out for the newest products. </p>
-                        <Image className='img-size-carausel' src={brandsImage}></Image>
+                        <Image className='img-size-carausel d-none d-xl-block' src={brandsImage}></Image>
                         </Col>
                         <Col lg={8}>
                             <img

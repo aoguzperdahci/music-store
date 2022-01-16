@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "../CSS/ProductDetailPage.css";
 import Products from '../Resources/Products';
 import { Breadcrumb, BreadcrumbItem, Col, Container, Image, Row } from 'react-bootstrap';

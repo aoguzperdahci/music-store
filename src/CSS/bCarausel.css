@@ -4,8 +4,8 @@
     border: solid 1px #555;
     background-color: #eed;
     border-radius:25px;
-    width: 800px;
-    height: 500px;
+    width: auto;
+    height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -16,7 +16,7 @@
         rgb(213, 219, 217) 0%,
         rgb(220, 228, 228) 100%
     );
-    font-size: 45px;
+    font-size: 35px;
     color: rgb(73, 78, 78);
     padding-left: 100px;
     font-weight: bold;
@@ -27,7 +27,7 @@
     padding-left: 100px;
     font-style: italic;
     font-family: serif;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .img-size-carausel{
