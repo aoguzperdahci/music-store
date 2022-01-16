@@ -13,7 +13,7 @@ export default function BCarousel() {
             <Carousel className='background'>
                 <Carousel.Item>
                     <Row>
-                        <Col lg={4} className='d-none d-lg-block text-center my-auto'>
+                        <Col lg={4} className='d-none d-lg-block text-center my-auto'> {/* lg ve daha büyük ekranda gösterir. */}
                         <h3 className='heading-carausel'>Discount On Every Piano</h3>
                         <div>
                         <p className='text-carausel'>Up to 15% - 25% discount on all piano brands on your first purchase from our website.
@@ -33,7 +33,7 @@ export default function BCarousel() {
                         
                     </Row>
 
-                    <Carousel.Caption className='d-lg-none'>
+                    <Carousel.Caption className='d-lg-none'> {/* lg ekranda göstermez. */}
                         <h3>Check Out For Campaigns</h3>
                         <p>Valid until 31st January!</p>
                     </Carousel.Caption>
@@ -57,7 +57,7 @@ export default function BCarousel() {
                         
                     </Row>
 
-                    <Carousel.Caption className='d-lg-none'>
+                    <Carousel.Caption className='d-lg-none'> 
                         <h3>Stocks are now renewed!</h3>
                         <p>Go check for the newest brands.</p>
                     </Carousel.Caption>
@@ -66,7 +66,7 @@ export default function BCarousel() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <Row>
-                        <Col lg={4} className='d-none d-lg-block text-center my-auto'>
+                        <Col lg={4} className='d-none d-lg-block text-center my-auto'> 
                         <h3 className='heading-carausel'>Everything You Are Looking For</h3>
                         <p className='text-carausel'>Many instrumental stuff are finally available again! Every little instrumental 
                         tool you are in need is on this website. We have renewed our stocks! Check out for the newest products. </p>
@@ -80,7 +80,7 @@ export default function BCarousel() {
                         </Col>
                         
                     </Row>
-
+                    
                     <Carousel.Caption className='d-lg-none'>
                         <h3>The most preferred models and brands.</h3>
                         <p>Many instrumental stuff are finally available again!</p>
