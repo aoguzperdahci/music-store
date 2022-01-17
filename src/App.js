@@ -16,7 +16,9 @@ function App() {
 
     <MenuBar/>
 
-      <Routes>
+      <Routes >
+
+        <Route index element={<MainPage />}/>
 
         <Route path="/" element={<MainPage />}/>
 

@@ -6,6 +6,7 @@ import Products from '../Resources/Products';
 import { Breadcrumb, BreadcrumbItem, Col, Container, Image, Row } from 'react-bootstrap';
 import warrantyIcon from "../Resources/images/warranty.png";
 import moneyBackIcon from "../Resources/images/money_back.png";
+import { FaHome } from "react-icons/fa";
 
 const ProductDetailPage = () => {
 
@@ -32,7 +33,7 @@ const ProductDetailPage = () => {
 
                 <Breadcrumb className='mt-3 d-lg-none'>
                         <BreadcrumbItem>
-                            <Link to="/" className='link'><span style={{ fontSize: 25 }} class="material-icons">home</span></Link>
+                            <Link to="/" className='link'><FaHome size={24}></FaHome></Link>
                         </BreadcrumbItem>
 
                         <BreadcrumbItem>
@@ -59,7 +60,7 @@ const ProductDetailPage = () => {
 
                     <Breadcrumb className='mt-3 d-none d-lg-block'>
                         <BreadcrumbItem>
-                            <Link to="/" className='link'><span style={{ fontSize: 25 }} class="material-icons">home</span></Link>
+                            <Link to="/" className='link'><FaHome size={24}></FaHome></Link>
                         </BreadcrumbItem>
 
                         <BreadcrumbItem>

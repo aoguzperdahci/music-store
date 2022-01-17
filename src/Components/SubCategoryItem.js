@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import "../CSS/subCategoryItem.css";
-import Categories from '../Resources/Categories';
 import { Link } from 'react-router-dom';
 
 
